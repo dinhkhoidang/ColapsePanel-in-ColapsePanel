@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="kBeIdj" name="Panelinsile" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Panelinsile" includeBinaryInAppConfig="1"
+              jucerVersion="4.2.1">
+  <MAINGROUP id="HSHnK9" name="Panelinsile">
+    <GROUP id="{F13451D6-47ED-FF5F-E0DD-A99D23FDACAD}" name="Source">
+      <FILE id="KUMJrd" name="TableDemo.cpp" compile="1" resource="0" file="Source/TableDemo.cpp"/>
+      <FILE id="tknx4E" name="TableDemo.h" compile="0" resource="0" file="Source/TableDemo.h"/>
+      <FILE id="PT6O2C" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="NpixDN" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="gU6ZNA" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="Panelinsile"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="Panelinsile"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/juce-grapefruit-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2015>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

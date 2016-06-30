@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2015
+Project("{CDE6C779-6947-DA36-75A5-FC75A9E8CB80}") = "Panelinsile", "Panelinsile.vcxproj", "{DC9E5A77-16B7-25B1-EF2F-CD3E8F4C9433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC9E5A77-16B7-25B1-EF2F-CD3E8F4C9433}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DC9E5A77-16B7-25B1-EF2F-CD3E8F4C9433}.Debug|Win32.Build.0 = Debug|Win32
+		{DC9E5A77-16B7-25B1-EF2F-CD3E8F4C9433}.Release|Win32.ActiveCfg = Release|Win32
+		{DC9E5A77-16B7-25B1-EF2F-CD3E8F4C9433}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

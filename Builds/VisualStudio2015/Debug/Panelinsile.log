@@ -1,0 +1,8 @@
+﻿  Main.cpp
+  MainComponent.cpp
+c:\users\khoi.dang\documents\panelinsile\source\main.cpp(27): warning C4100: 'commandLine': unreferenced formal parameter
+c:\users\khoi.dang\documents\panelinsile\source\main.cpp(49): warning C4100: 'commandLine': unreferenced formal parameter
+c:\users\khoi.dang\documents\panelinsile\source\maincomponent.cpp(59): warning C4100: 'indexSection': unreferenced formal parameter
+c:\users\khoi.dang\documents\panelinsile\source\maincomponent.cpp(59): warning C4100: 'sub': unreferenced formal parameter
+c:\users\khoi.dang\documents\panelinsile\source\maincomponent.cpp(82): warning C4100: 'sectionIdx': unreferenced formal parameter
+  Panelinsile.vcxproj -> C:\Users\khoi.dang\Documents\Panelinsile\Builds\VisualStudio2015\Debug\Panelinsile.exe
